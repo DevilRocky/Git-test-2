@@ -17,8 +17,10 @@ while True:
 
         color = 255,0,0
         stroke = 2
+        
         width = x + w
         height = y + h
+        
         cv2.rectangle(frame,(x , y),(width, height),color,stroke)
 
     cv2.imshow('frame', frame)
